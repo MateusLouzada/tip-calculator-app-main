@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-principal">
+      <form>
+        <div class="page-one">
+          <div class="bill">
+            <h2>Bill</h2>
+            <input id="takeBill" autocomplete="off" type="text" placeholder="0">
+          </div>
+          <h2 class="h-two">Select Tip %</h2>
+          <div class="buttons">
+            <button id="buttonOne" class="button-color" type="button" value="5">5%</button>
+            <button id="buttonTwo" class="button-color" type="button" value="10">10%</button>
+            <button id="buttonThree" class="button-color" type="button" value="15">15%</button>
+            <button id="buttonFour" class="button-color" type="button" value="25">25%</button>
+            <button id="buttonFive" class="button-color" type="button" value="50">50%</button>
+            <input id="custom" autocomplete="off" class="custom" type="text" placeholder="Custom">
+          </div>
+          <div class="number-peoples">
+            <h2>Number of People </h2>
+            <input id="numberPeople" autocomplete="off" type="text" placeholder="0">
+          </div>
+        </div>
+        <div class="page-two">
+          <div class="tip-amount">
+            <div class="total-tip-text">Tip Amount <br><span style="color:cadetblue;">/ person</span></div>
+            <div id="tipAmount" class="total-tip-amount">$0.00</div>
+          </div>
+
+          <div class="total">
+            <div class="total-tip-text">Total <br><span style="color:cadetblue;">/ person</span></div>
+            <div id="totalPerson" class="total-tip-amount">$0.00</div>
+          </div>
+          <button id="reset" type="reset">RESET</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

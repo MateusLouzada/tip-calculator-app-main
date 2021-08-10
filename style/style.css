@@ -1,0 +1,313 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono";
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url(../fonts/SpaceMono-Regular.ttf);
+  font-weight: 400, 500, 700;
+}
+
+body {
+  max-width: 1440px;
+}
+
+.container {
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(172, 67%, 45%);
+}
+
+.container-principal {
+  display: flex;
+  background-color: white;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.page-one {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.bill {
+  margin-bottom: 20px;
+}
+
+.bill input {
+  background-image: url(../images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 10px;
+  margin-top: 20px;
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  padding: 10px;
+  width: 295px;
+  border-radius: 5px;
+  text-align: right;
+  color: hsl(183, 100%, 15%);
+}
+
+.bill input:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.h-two {
+  margin-bottom: 20px;
+}
+
+.button-color {
+  width: 6rem;
+  height: 2rem;
+  margin: 5px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.custom {
+  width: 6rem;
+  height: 2rem;
+  margin: 5px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+  text-align: center;
+}
+
+.custom:focus {
+  outline: none;
+  border-color: transparent;
+}
+
+::-webkit-input-placeholder {
+  color: hsl(183, 100%, 15%);
+  opacity: 60%;
+}
+
+:-moz-placeholder {
+  color: hsl(183, 100%, 15%);
+  opacity: 60%;
+}
+
+::-moz-placeholder {
+  color: hsl(183, 100%, 15%);
+  opacity: 60%;
+}
+
+:-ms-input-placeholder {
+  color: hsl(183, 100%, 15%);
+  opacity: 60%;
+}
+
+.number-peoples input {
+  background-image: url(../images/icon-person.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 10px;
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  padding: 10px;
+  width: 295px;
+  border-radius: 5px;
+  text-align: right;
+  margin-top: 20px;
+  color: hsl(183, 100%, 15%);
+}
+
+.number-peoples input:focus {
+  outline: none;
+}
+
+.page-two {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 320px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.tip-amount {
+  display: flex;
+  justify-content: space-between;
+  width: 275px;
+  margin-top: -30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 275px;
+  margin-top: -60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-two button {
+  margin-bottom: -50px;
+  width: 275px;
+  align-self: center;
+  border: none;
+  padding: 7px;
+  color: hsl(186, 14%, 43%);
+  background-color: hsl(172, 67%, 45%);
+  border-radius: 2px;
+}
+
+.total-tip-amount {
+  font-size: 2rem;
+  color: hsl(172, 67%, 45%);
+}
+
+.button-color:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: hsl(172, 67%, 45%);
+}
+
+@media (max-width: 866px) {
+  
+  body {
+    font-size: 20px;
+  }
+
+  form {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+    background-position-y: 30px;
+    width: 100%;
+    height: 135vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .container-principal {
+    width: 80%;
+    height: 100vh;
+    margin: 0;
+    padding: 2rem;
+    justify-content: center;
+  }
+
+  .page-one {
+    margin-bottom: 20px;
+    padding: 0;
+    height: 60%;
+    width: 100%;
+  }
+
+  #takeBill {
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .buttons {
+    height: 20vh;
+    display: block;
+    text-align: center;
+  }
+
+  .button-color {
+    width: 8rem;
+    height: 3rem;
+    font-size: 20px;
+  }
+
+  .custom {
+    width: 8rem;
+    height: 3rem;
+    font-size: 20px;
+  }
+
+  .number-peoples input {
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .page-two {
+    margin: 0;
+    padding: 0;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    
+  }
+
+  .page-two button {
+    margin: 0;
+  }
+
+  .bill {
+    padding: 0;
+    margin: 0;
+  }
+
+  .tip-amount {
+    margin: 0;
+    padding: 0;
+  }
+
+  .total {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+}
