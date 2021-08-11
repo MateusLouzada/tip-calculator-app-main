@@ -251,7 +251,7 @@ body {
   }
 
   .buttons {
-    height: 20vh;
+    height: 200px;
     display: block;
     text-align: center;
   }
@@ -269,23 +269,20 @@ body {
   }
 
   .number-peoples {
-    margin-top: 20px;
     display: inline-block;
   }
 
   .number-People {
     height: 25px;
     font-size: 20px;
-    margin-top: 30px;
   }
 
   .page-two {
     margin: 0;
     padding: 0;
-    height: 40%;
+    height: 30%;
     width: 100%;
     align-items: center;
-    
   }
 
   .page-two button {
