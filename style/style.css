@@ -241,7 +241,7 @@ body {
   .page-one {
     margin-bottom: 20px;
     padding: 0;
-    height: 60%;
+    height: 65%;
     width: 100%;
   }
 
@@ -269,12 +269,14 @@ body {
   }
 
   .number-peoples {
-    display: block;
+    margin-top: 20px;
+    display: inline-block;
   }
 
   .number-People {
     height: 25px;
     font-size: 20px;
+    margin-top: 30px;
   }
 
   .page-two {
