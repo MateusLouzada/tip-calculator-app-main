@@ -225,17 +225,18 @@ body {
     margin: 0;
     background-position-y: 30px;
     width: 100%;
-    height: 70rem;
+    height: 1100px;
     overflow-y: auto;
     overflow-x: hidden;
   }
 
   .container-principal {
     width: 80%;
-    height: 50rem;
+    height: 800px;
     margin: 0;
     padding: 2rem;
     justify-content: center;
+    z-index: -1;
   }
 
   .page-one {
