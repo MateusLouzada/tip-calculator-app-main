@@ -135,7 +135,7 @@ body {
   opacity: 60%;
 }
 
-.number-peoples input {
+.number-People {
   background-image: url(../images/icon-person.svg);
   background-repeat: no-repeat;
   background-position: left;
@@ -150,7 +150,7 @@ body {
   color: hsl(183, 100%, 15%);
 }
 
-.number-peoples input:focus {
+.number-People:focus {
   outline: none;
 }
 
@@ -268,7 +268,7 @@ body {
     font-size: 20px;
   }
 
-  .number-peoples input {
+  .number-People {
     height: 25px;
     font-size: 20px;
   }
